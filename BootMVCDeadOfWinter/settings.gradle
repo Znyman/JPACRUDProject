@@ -1,0 +1,2 @@
+rootProject.name = 'BootMVCDeadOfWinter'
+includeFlat 'JPADeadOfWinter'
