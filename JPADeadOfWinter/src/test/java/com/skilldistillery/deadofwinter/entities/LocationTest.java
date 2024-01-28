@@ -45,6 +45,12 @@ class LocationTest {
 	void test_Location_entity_mapping() {
 		assertNotNull(location);
 		assertEquals("Police Station", location.getName());
+		assertEquals("Assault Rifle", location.getWeapon());
+		assertEquals("Firearm Safety Basics", location.getBook());
+		assertEquals("Gauze and Bandages", location.getMedicalSupply());
+		assertEquals("Multi-tool", location.getTool());
+		assertEquals("Freeze Dried Biscuits and Gravy", location.getFood());
+		assertEquals(4, location.getZombieCount());
 	}
 
 }
