@@ -41,13 +41,3 @@ The JPACRUD application is designed to reinforce the following learning objectiv
 ## Project Structure
 
 The project comprises a single table and entity, mapped to the MySQL database. JPA is used to ensure proper interaction between the Java application and the database. The Spring MVC interface facilitates user interaction with CRUD operations.
-
-## Getting Started
-
-To run the JPACRUDProject locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Znyman/JPACRUDProject.git
-   cd JPACRUDProject 
-   mvn clean install spring-boot:run
