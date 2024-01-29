@@ -19,7 +19,7 @@ public class LocationController {
 	@Autowired
 	LocationDAO locationDAO;
 	
-	@GetMapping(path = {"", "/"})
+	@GetMapping(path = {"", "/", "index.do"})
 	public String index(Model model) {
 		List<Location> locations = locationDAO.findAll();
 		model.addAttribute("locations", locations);

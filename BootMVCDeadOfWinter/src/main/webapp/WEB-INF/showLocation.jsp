@@ -99,7 +99,7 @@
 	
 	<hr>
 	<div class="form-group" style="padding: 0 500px;">
-		<form action="/" method="GET">
+		<form action="index.do" method="GET">
 			<input type="submit" class="btn btn-primary" value="Return to the home page" />
 		</form>
 	</div>

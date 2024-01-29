@@ -49,7 +49,7 @@
 			<input type="text" class="form-control" id="food" name="food">
 			<br> 
 			<label for="zombieCount"><em>How many zombies are at this location?</em></label>
-			<input type="text" class="form-control" id="zombieCount" name="zombieCount" value="1" required>
+			<input type="number" class="form-control" id="zombieCount" name="zombieCount" value="1" required>
 			<br> 
 			<input type="submit" class="btn btn-primary" value="Add Location">
 		</form>

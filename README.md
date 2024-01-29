@@ -41,3 +41,7 @@ The JPACRUD application is designed to reinforce the following learning objectiv
 ## Project Structure
 
 The project comprises a single table and entity, mapped to the MySQL database. JPA is used to ensure proper interaction between the Java application and the database. The Spring MVC interface facilitates user interaction with CRUD operations.
+
+## Access on AWS instance
+
+http://3.13.90.222:8080/BootMVCDeadOfWinter/
